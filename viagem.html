@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <link rel="stylesheet" href="viagem.css" />
+    <title>Photo</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <aside>
+<div id="menu-opener"  onclick="menuToggle()"> 
+    <img src="botao.png"  width="36">
+</div>
+
+<div id="menu-area">
+
+    <div class="rightside">
+        <h1>Crie uma conta</h1>
+
+        <form method="POST" action="cadastro.php" class="login">
+            <label>
+                Seu nome:<br/>
+                <input type="text" name="name" data-rules="required|min=2" />
+            </label>
+            <label>
+                Seu e-mail:<br/>
+                <input type="text" name="email" data-rules="required|email" />
+            </label>
+            <label>
+                Sua senha:<br/>
+                <input type="password" name="password" data-rules="min=4" />
+            </label>
+            <label>
+                <input type="submit" value="Cadastrar" />
+            </label>
+        </form>
+
+        <div>
+            Já tem uma conta? <a href="">Faça o Login</a>
+        </div>
+    </div>
+
+</div>
+    </aside>
+
+
+<script type="text/javascript" src="viagem.js"> </script>
+</body>
+</html>

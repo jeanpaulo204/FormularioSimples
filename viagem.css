@@ -1,0 +1,56 @@
+* {
+box-sizing: border-box;
+}
+
+
+body {
+    background-image:url(foto.jpg);
+}
+aside {
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:999;
+    display:flex;
+}
+#menu-opener {
+    width:40px;
+    height:40px;
+    cursor:pointer;
+    margin-top:10px;
+    margin-right:10px;
+}
+#menu-area {
+    width: 500px;
+    height:100vh;
+    background:rgba(169, 169, 169, 0.671);
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition: all ease .5s;
+    padding:10px;
+}
+
+#menu-area li:hover {
+    background:#ddd;
+}               
+
+
+#rightside{
+    padding:50px;
+    width: 400px;
+}
+
+
+.rightside label {
+    display: block;
+    margin-bottom:20px;
+}
+
+.rightside input {
+ border:1px solid #999;
+ border-radius: 3px;
+ padding: 8px;
+ font-size: 14px;
+ width: 100%;
+ outline:0;
+}
