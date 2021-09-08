@@ -1,7 +1,7 @@
 # Descrição
 Descrição> uso de Html e Css + Javascript.
 
-Nesse Projeto Eu Uso Um Formulario De Cadastro interativo com sua base no Javaescript,
+Nesse Projeto Eu Uso Um Formulario De Cadastro interativo com sua base no Javascript,
 Como Abrir e Fechar o Menu do Formulario, e Requerimentos Para Ser Preenchido.
 
 
